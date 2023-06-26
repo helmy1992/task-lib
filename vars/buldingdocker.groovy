@@ -1,4 +1,4 @@
 def call(){
 
-  docker build -t myapp:1.0 .
+ sh   'docker build -t myapp:1.0 .'
 }
